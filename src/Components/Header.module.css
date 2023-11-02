@@ -1,0 +1,96 @@
+
+  
+  /* Common styles for header links */
+  .header{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #505f98;
+    text-decoration: none;
+    padding: 0 20px;
+    display: block;
+  }
+  
+  /* Style for header-home and other links */
+  .header-home {
+    position: absolute;
+    left: 0;
+    right: 80%;
+    top: 0;
+    bottom: 90.7%;
+  }
+  
+  .header-about {
+    position: absolute;
+    left: 0;
+    right: 65%;
+    top: 0;
+    bottom: 90.7%;
+  }
+  
+  .header-contact {
+    position: absolute;
+    left: 0;
+    right: 50%;
+    top: 0;
+    bottom: 90.7%;
+  }
+  
+  .header-landing {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 90.7%;
+    color: #081963;
+  }
+  
+  .header-button {
+    margin-left: 65%; /* Use a percentage for responsiveness */
+    margin-top: 1.5%;
+    width: 120px;
+    color: var(--colour-secondary-white-100-general, #fff);
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+    background-color: #081963;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .header-home
+     {
+      font-size: 12px; /* Adjust font size for smaller screens */
+    }
+
+    .header-about
+     {
+      font-size: 12px; /* Adjust font size for smaller screens */
+    }
+
+    .header-contact
+     {
+      font-size: 12px; /* Adjust font size for smaller screens */
+    }
+  
+    .header-button {
+      margin-left: 2%; /* Adjust margin for smaller screens */
+    }
+  }
+  .bg {
+    background-image: url("../assets/Path.png");
+    width: 1490.032px;
+    height: 1161px;
+    flex-shrink: 0;
+    background-size: cover;
+  }
+  
