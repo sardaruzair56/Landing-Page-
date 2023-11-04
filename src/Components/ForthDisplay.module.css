@@ -1,0 +1,45 @@
+.forthDisplay {
+  flex-direction: row;
+}
+.image {
+  background-image: url("../assets/ForthDisplay.png");
+  background-size: cover;
+  background-position: 70%;
+  width: 700px;
+  height: 500px;
+  margin-left: 5%;
+  margin-top: 25%;
+  z-index: 1;
+}
+
+.title {
+  margin-top: -450px;
+  margin-left: 950px;
+  width: 600px;
+  color: var(--colour-main-blue-900, #091133);
+  font-feature-settings: "clig" off, "liga" off;
+  /* Medium 50 */
+  font-family: Roboto;
+  font-size: 50px;
+  text-align: justify;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 66px; /* 132% */
+  letter-spacing: 1px;
+}
+
+.Text {
+  width: 500px;
+  height: 250px;
+  margin-left: 950px;
+  color: var(--colour-main-blue-500, #505f98);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Roboto";
+  font-size: 18px;
+  text-align: justify;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+

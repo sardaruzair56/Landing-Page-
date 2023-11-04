@@ -1,0 +1,75 @@
+.bgIcon {
+  margin-top: 300px;
+}
+.title {
+  color: var(--colour-main-blue-900, #091133);
+  font-feature-settings: "clig" off, "liga" off;
+  /* Medium 50 */
+  font-family: Roboto;
+  font-size: 40px;
+  text-align: justify;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 66px; /* 132% */
+  letter-spacing: 1px;
+  margin-top: -700px;
+  margin-left: 450px;
+}
+
+.text {
+  color: var(--colour-main-blue-500, #505f98);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Roboto";
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  width: 700px;
+  margin-top: -20px;
+  margin-left: 330px;
+}
+
+.design {
+  color: var(--colour-main-blue-500, #505f98);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Roboto";
+  font-size: 60px;
+  text-align: justify;
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 600px;
+}
+
+.design2 {
+  color: var(--colour-main-blue-500, #505f98);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Roboto";
+  font-size: 20px;
+  text-align: justify;
+  font-style: normal;
+  margin-top: -50px;
+  margin-left: 600px;
+}
+
+.design3 {
+  color: var(--colour-main-blue-500, #505f98);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Roboto";
+  font-size: 20px;
+  text-align: justify;
+  font-style: normal;
+  margin-top: 60px;
+  margin-left: 560px;
+}
+
+.button {
+  margin-top: -250px;
+  margin-left: 30px;
+  height: 40px;
+  width: 300px;
+  background-color: #05103e;
+  font-family: "Roboto";
+  color: #fff;
+  border: 3px solid rgb(6, 6, 56);
+}
