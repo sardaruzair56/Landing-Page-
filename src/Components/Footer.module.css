@@ -8,7 +8,7 @@
   background-position: 70%;
   z-index: 1;
   margin-top: 200px;
-  width: 110.7%;
+  width: 1520px;
   height: 300px;
   margin-top: 140px;
 }
@@ -16,27 +16,37 @@
 .txt1 {
   margin-top: -210px;
   margin-left: -60%;
-
-  color: var(--colour-main-blue-500, #505f98);
+  color: var(--colour-main-grey-400, #939ea4);
   font-feature-settings: "clig" off, "liga" off;
+
+  /* Medium 14 */
   font-family: "Roboto";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 171.429% */
 }
 
 .txt2 {
   margin-top: -3%;
-  color: var(--colour-main-blue-500, #505f98);
+  color: var(--colour-logo-primary, #37447e);
   font-feature-settings: "clig" off, "liga" off;
+
+  /* Bold 26 */
   font-family: "Roboto";
-  font-size: 30px;
+  font-size: 26px;
   font-style: normal;
+  font-weight: 900;
+  line-height: 38px; /* 146.154% */
 }
 
 .btn {
-  margin-top: -5%;
+  margin-top: -4%;
   margin-left: 80%;
-  height: 30px;
-  width: 150px;
+  height: 25px;
+  width: 140px;
   background-color: #05103e;
+
   font-family: "Roboto";
   color: #fff;
   border: 3px solid rgb(6, 6, 56);
@@ -47,81 +57,101 @@
   background-image: url("../assets/download.jfif");
   background-size: cover;
   background-position: 70%;
-  width: 1100px;
+  background: #CDD1D4;
+  width: 1068px;
   height: 2px;
-  margin-left: 10%;
+  margin-left: 16%;
   margin-top: 3%;
   z-index: 1;
 }
 
-.home{
-  color: var(--colour-main-blue-500, #505f98);
+.home {
+  color: var(--colour-main-blue-300, #929ecc);
   font-feature-settings: "clig" off, "liga" off;
+
+  /* Regular 14 */
   font-family: "Roboto";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
   margin-top: -30px;
   margin-left: -65%;
-
 }
 
-.about{
-  color: var(--colour-main-blue-500, #505f98);
+.about {
+  color: var(--colour-main-blue-300, #929ecc);
   font-feature-settings: "clig" off, "liga" off;
+
+  /* Regular 14 */
   font-family: "Roboto";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
   margin-top: -35px;
   margin-left: -50%;
-  
 }
 
-.contact{
-  color: var(--colour-main-blue-500, #505f98);
+.contact {
+  color: var(--colour-main-blue-300, #929ecc);
   font-feature-settings: "clig" off, "liga" off;
+
+  /* Regular 14 */
   font-family: "Roboto";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
   margin-top: -35px;
   margin-left: -35%;
-  
 }
 
-.icon1{
-  width: 30px;
-  height: 30px;
+.icon1 {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
   margin-top: 30px;
-  margin-left: 65%;
+  margin-left: 69.5%;
   z-index: 1;
 }
 
-.iconsbody{
+.iconsbody {
   flex-direction: row;
 }
 
-.icon2{
-  width: 30px;
-  height: 30px;
-  margin-top:20px;
+.icon2 {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  margin-top: 20px;
   margin-left: 20px;
   z-index: 1;
 }
 
-
-.icon3{
-  width: 30px;
-  height: 30px;
-  margin-top:20px;
+.icon3 {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  margin-top: 20px;
   margin-left: 20px;
   z-index: 1;
 }
 
-.icon4{
-  width: 30px;
-  height: 30px;
-  margin-top:20px;
+.icon4 {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  margin-top: 20px;
   margin-left: 20px;
   z-index: 1;
 }
 
-.icon5{
-  width: 30px;
-  height: 30px;
-  margin-top:20px;
+.icon5 {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  margin-top: 20px;
   margin-left: 20px;
   z-index: 1;
 }

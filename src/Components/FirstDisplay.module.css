@@ -1,34 +1,38 @@
-.body{
-    margin-top: 200px;
+.body {
+  margin-top: 200px;
+  width: 1440px;
+  height: 742px;
 }
 .intro {
-  width: 539px;
+  width: 540px;
   margin-left: 7.5%;
   margin-top: 12%;
   color: var(--colour-main-blue-900, #091133);
   font-feature-settings: "clig" off, "liga" off;
-  /* Medium 50 */
-  font-family: Roboto;
-  font-size: 50px;
+
+  /* Medium 36 */
+  font-family: "Roboto";
+  font-size: 36px;
   text-align: justify;
   font-style: normal;
   font-weight: 500;
-  line-height: 66px; /* 132% */
-  letter-spacing: 1px;
+  line-height: 48px; /* 133.333% */ /* 133.333% */
 }
 
 .text {
-  width: 450px;
+  width: 540px;
   margin-left: 7.5%;
   margin-top: 0%;
-  color: var(--colour-main-blue-500, #505f98);
+  color: var(--colour-main-blue-400, #6f7cb2);
   font-feature-settings: "clig" off, "liga" off;
+
+  /* Regular 16 */
   font-family: "Roboto";
-  font-size: 18px;
+  font-size: 16px;
   text-align: justify;
   font-style: normal;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 26px; /* 162.5% */ /* 162.5% */
 }
 .image {
   background-image: url("../assets/image.PNG");
@@ -41,74 +45,82 @@
   margin-top: -45%;
   z-index: 1;
 }
-.icon1{
-    margin-left: 100px;
+.icon1 {
+  margin-left: 115px;
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
 }
 .icon1Title {
-  width: 300px;
-  margin-left: 7.5%;
-  margin-top: 0%;
+  width: 255px;
+  margin-left: 3%;
+  margin-top: 1.5%;
   color: var(--colour-main-blue-900, #091133);
-  font-feature-settings: "clig" off, "liga" off;
+  font-feature-settings: 'clig' off, 'liga' off;
+  
+  /* Medium 16 */
   font-family: "Roboto";
-  font-size: 20px;
-  text-align: justify;
+  font-size: 16px;
   font-style: normal;
-  font-weight: 600;
-  line-height: 66px;
-  letter-spacing: 1px;
-}
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */}
 
 .icon2Title {
-    width: 300px;
-    margin-left: 6.5%;
-    margin-top: 0%;
-    color: var(--colour-main-blue-900, #091133);
-    font-feature-settings: "clig" off, "liga" off;
-    font-family: "Roboto";
-    font-size: 20px;
-    text-align: justify;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 66px;
-    letter-spacing: 1px;
-  }
+  width: 300px;
+  margin-left: -0.4%;
+  margin-top: 1.5%;
+  color: var(--colour-main-blue-900, #091133);
+  font-feature-settings: 'clig' off, 'liga' off;
+  
+  /* Medium 16 */
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
 
-.icon2{
-  margin-left:310px ;
+.icon2 {
+  margin-left: 308px;
+  margin-top: 0%;
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
 }
 .icon1Text {
   width: 250px;
-  margin-left: -22%;
+  margin-left: -12.5%;
   margin-top: 60px;
-  color: var(--colour-main-blue-500, #505f98);
-  font-feature-settings: "clig" off, "liga" off;
-  font-family: "Roboto";
-  font-size: 18px;
-  text-align: justify;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 30px;
-}
-.icon2Text {
-    width: 300px;
-    margin-left: -23%;
-    margin-top: 60px;
-    color: var(--colour-main-blue-500, #505f98);
-    font-feature-settings: "clig" off, "liga" off;
-    font-family: "Roboto";
-    font-size: 18px;
-    text-align: justify;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-  }
+  color: var(--colour-main-grey-600, #5D6970);
+  font-feature-settings: 'clig' off, 'liga' off;
   
-.icon{
-    display: flex;
-    margin-top: 120px;
+  /* Regular 12 */
+  font-family: "Roboto";
+  font-size: 12px;
+  font-style: normal;
+  text-align: justify;
+  font-weight: 400;
+  line-height: 18px; /* 150% */}
+.icon2Text {
+  width: 300px;
+  margin-left: -14%;
+  margin-top: 4%;
+  color: var(--colour-main-grey-600, #5D6970);
+  font-feature-settings: 'clig' off, 'liga' off;
+  
+  /* Regular 12 */
+  font-family: "Roboto";
+  font-size: 12px;
+  font-style: normal;
+  text-align: justify;
+  font-weight: 400;
+  line-height: 18px;
 }
-.TitleText{
-    display: flex;
-    
+
+.icon {
+  display: flex;
+  margin-top: 120px;
+}
+.TitleText {
+  display: flex;
 }

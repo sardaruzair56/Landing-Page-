@@ -1,10 +1,17 @@
-.button{
-        margin-top: -250px;
-        margin-left: 750px;
-        height: 40px;
-        width: 150px;
-        background-color: #05103e;
-        font-family: "Roboto";
-        color: #fff;
-        border: 3px solid rgb(6, 6, 56);
+.button {
+        margin-top: -50px;
+  margin-left: 550px;
+  height: 40px;
+  width: 180px;
+  background-color: #05103e;
+  color: var(--colour-secondary-white-100-general, #fff);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Medium 14 */
+  font-family: "Roboto";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 171.429% */
 }

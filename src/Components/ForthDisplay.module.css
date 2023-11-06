@@ -14,32 +14,33 @@
 
 .title {
   margin-top: -450px;
-  margin-left: 950px;
-  width: 450px;
+  margin-left: 900px;
+  width: 445px;
   color: var(--colour-main-blue-900, #091133);
   font-feature-settings: "clig" off, "liga" off;
-  /* Medium 50 */
-  font-family: Roboto;
-  font-size: 40px;
-  text-align: justify;
+
+  /* Medium 36 */
+  font-family: 'Roboto';
+  font-size: 36px;
+  text-align:justify;
   font-style: normal;
   font-weight: 500;
-  line-height: 66px; /* 132% */
-  letter-spacing: 1px;
+  line-height: 48px; /* 133.333% */
 }
 
 .Text {
-  width: 450px;
+  width: 445px;
   height: 250px;
-  margin-left: 950px;
-  color: var(--colour-main-blue-500, #505f98);
-  font-feature-settings: "clig" off, "liga" off;
-  font-family: "Roboto";
-  font-size: 18px;
+  margin-left: 900px;
+  margin-top: -20px;
   text-align: justify;
+  color: var(--colour-main-blue-400, #6F7CB2);
+  font-feature-settings: 'clig' off, 'liga' off;
+  
+  /* Regular 16 */
+  font-family: Roboto;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 26px; /* 162.5% */
 }
-
-

@@ -11,6 +11,7 @@ const FifthDisplay = () => {
         height="935"
         viewBox="0 0 1440 935"
         fill="none"
+        className={classes.bgimg}
       >
         <path
           opacity="0.5"
@@ -24,7 +25,7 @@ const FifthDisplay = () => {
         ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
         dis parturient montes, nascetur ridiculus{" "}
       </p>
-      <p className={classes.design}><strong>$ 40</strong></p>
+      <p className={classes.design}>$40</p>
       <p className={classes.design2}>UI Design Kit</p>
       <p className={classes.design3}>See, One price. Simple.</p>
       <button className={classes.button}>Purchase Now</button>

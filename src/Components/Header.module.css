@@ -1,9 +1,22 @@
 .body{
-  width: 1300px;
-  height:4230px;
-  margin-left: 4% ;
-  margin-right: 4%;
+  margin-left: 65px;
 }
+
+.header::after {
+  content: "";
+  position: absolute;
+  top: 250px;
+  right: 5px;
+  width: 450px;
+  height: 550px;
+  margin-top: -50px;
+  background-image: url("../assets/Group.png");
+  image-resolution: 1440px;
+  background-size: cover;
+  background-position: 70%;
+  z-index: 1;
+}
+
 .header {
   margin: auto;
   flex-direction: row;
@@ -17,18 +30,19 @@
   text-decoration: none;
   padding: 0 20px;
   display: block;
+  width: 1440px;
+  height: 770px;
+  margin-top: 0px;
+  margin-left: 40px;
   background-image: url("../assets/Path.png");
-  width: 1400px;
-  height: 1250px;
   background-size: cover;
   position: relative;
-  }
+}
 
-/* Style for header-home and other links */
 .header-home {
   position: absolute;
   left: 0;
-  right: 80%;
+  right: 85%;
   top: 0;
   bottom: 90.7%;
 }
@@ -36,7 +50,7 @@
 .header-about {
   position: absolute;
   left: 0;
-  right: 65%;
+  right: 70%;
   top: 0;
   bottom: 90.7%;
 }
@@ -44,7 +58,7 @@
 .header-contact {
   position: absolute;
   left: 0;
-  right: 50%;
+  right: 55%;
   top: 0;
   bottom: 90.7%;
 }
@@ -62,7 +76,7 @@
 }
 
 .header-button {
-  margin-left: 65%; /* Use a percentage for responsiveness */
+  margin-left: 65%;
   margin-top: 1%;
   width: 120px;
   color: var(--colour-secondary-white-100-general, #fff);
@@ -75,153 +89,56 @@
   font-weight: 500;
   line-height: 18px;
 }
-.header::after {
-  content: ""; /* Create an empty content box for the overlay image */
-  position: absolute;
-  top: 250px;
-  right: 5px;
-  width: 700px; /* Set the width of the overlay image */
-  height: 800px; /* Set the height of the overlay image */
-  background-image: url("../assets/Group.png");
-  image-resolution:inherit;
-  background-size: cover;
-  z-index: 1; /* Ensure the overlay is above the background */
-}
 
-
-
-.header::after {
-  content: ""; /* Create an empty content box for the overlay image */
-  position: absolute;
-  top: 250px;
-  right: 5px;
-  width: 100px; /* Set the width of the overlay image */
-  height: 100px; /* Set the height of the overlay image */
-  background-image: url("../assets/Shape\ \(1\).svg");
-  image-resolution: 1440px;
-  background-size: cover;
-  z-index: 1; /* Ensure the overlay is above the background */
-}
-
-
-
-
-.header::after {
-  width: 700px;
-  height: 900px;
-  margin-right: 5%;
-  margin-right: 0%;
-  background-image: url("../assets/Group.png");
-  image-resolution: 1440px;
-  background-size: cover;
-  background-position: 70%;
-  z-index: 1;
-}
 .intro {
   width: 539px;
-  margin-left: 7.5%;
-  margin-top: 12%;
-  color: var(--colour-main-blue-900, #091133);
-  font-feature-settings: "clig" off, "liga" off;
-  /* Medium 50 */
-  font-family: Roboto;
-  font-size: 50px;
-  text-align: justify;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 66px; /* 132% */
-  letter-spacing: 1px;
-}
-.text {
-  width: 539px;
-  margin-left: 7.5%;
-  margin-top: 0%;
-  color: var(--colour-main-blue-500, #505f98);
-  font-feature-settings: "clig" off, "liga" off;
-  font-family: "Roboto";
-  font-size: 18px;
-  text-align: justify;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 30px;
-}
-
-.header::after {
-  content: ""; /* Create an empty content box for the overlay image */
-  position: absolute;
-  top: 250px;
-  right: 5px;
-  width: 100px; /* Set the width of the overlay image */
-  height: 100px; /* Set the height of the overlay image */
-  background-image: url("../assets/Shape\ \(1\).svg");
-  image-resolution: 1440px;
-  background-size: cover;
-  z-index: 1; /* Ensure the overlay is above the background */
-}
-
-
-
-
-.header::after {
-  width: 700px;
-  height: 900px;
-  margin-right: 5%;
-  margin-right: 0%;
-  background-image: url("../assets/Group.png");
-  image-resolution: 1440px;
-  background-size: cover;
-  background-position: 70%;
-  z-index: 1;
-}
-.intro {
-  width: 539px;
-  margin-left: 7.5%;
-  margin-top: 12%;
-  color: var(--colour-main-blue-900, #091133);
-  font-feature-settings: "clig" off, "liga" off;
-  /* Medium 50 */
-  font-family: Roboto;
-  font-size: 50px;
-  text-align: justify;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 66px; /* 132% */
-  letter-spacing: 1px;
-}
-.text {
-  width: 539px;
-  margin-left: 7.5%;
-  margin-top: 0%;
-  color: var(--colour-main-blue-500, #505f98);
-  font-feature-settings: "clig" off, "liga" off;
-  font-family: "Roboto";
-  font-size: 18px;
-  text-align: justify;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 30px;
-}
-.button{
-flex-direction: row;
-margin-right: 945px;
-margin-top: 100px;
-}
-.button1{
-  height:40px;
-  width: 150px;
-  margin-left: 95px;
-  background-color: #05103e;
-  font-family: "Roboto";
-  color: #fff;
-  border: 3px solid rgb(6, 6, 56);
-  }
+  margin-left: 5%;
+  margin-top: 12%;color: var(--colour-main-blue-900, #091133);
+  font-feature-settings: 'clig' off, 'liga' off;
   
-  .button2{
-  height:40px;
-  width: 150px;
-  margin-left: 50px;
-  z-index: 1;
+  /* Medium 50 */
+  font-family: Roboto;
+  font-size: 50px;
+  font-style: normal;
+  text-align: justify;
+  font-weight: 500;
+  line-height: 66px; /* 132% */
+  letter-spacing: 1px;
+}
+.text {
+  width: 539px;
+  margin-left: 5%;
+  margin-top: -1.5%;
+  color: var(--colour-main-blue-500, #505f98);
+  font-feature-settings: "clig" off, "liga" off;
   font-family: "Roboto";
-  color:#05103e;
-  border:3px solid rgb(5, 5, 66);
-  }
+  font-size: 18px;
+  text-align: justify;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.button {
+  flex-direction: row;
+  margin-right: 945px;
+  margin-top: 80px;
+}
+
+.button1, .button2 {
+  height: 40px;
+  width: 170px;
+  font-family: "Roboto";
+  border: 3px solid #05103e;
+}
+
+.button1 {
+  background-color: #05103e;
+  color: #fff;
+  margin-left: 20px;
+}
+
+.button2 {
+  color: #05103e;
+  margin-left: 30px;
+}

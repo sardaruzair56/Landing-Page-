@@ -1,47 +1,46 @@
-.img{
-    
-        background-image: url("../assets/SecondDisplay.png");
-        background-size: cover;
-        background-position: 70%;
-        width: 600px;
-        height: 400px;
-        margin-left: 5%;
-        margin-top: 25%;
-        z-index: 1;
+.img {
+  background-image: url("../assets/SecondDisplay.png");
+  background-size: cover;
+  background-position: 70%;
+  width: 600px;
+  height: 400px;
+  margin-left: 8%;
+  margin-top: 25%;
+  z-index: 1;
 }
-.Title{
-    width: 450px;
-    margin-left:900px;
-    margin-top: -380px;
-    color: var(--colour-main-blue-900, #091133);
-    font-feature-settings: "clig" off, "liga" off;
-    /* Medium 50 */
-    font-family: 'Roboto';
-    font-size: 40px;
-    text-align: justify;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 66px; /* 132% */
-    letter-spacing: 1px;
-  
+.Title {
+  width: 445px;
+  margin-left: 900px;
+  margin-top: -350px;
+  color: var(--colour-main-blue-900, #091133);
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Medium 36 */
+  font-family: "Roboto";
+  font-size: 36px;
+  text-align: justify;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px; /* 133.333% */
 }
-.Text{
-    margin: auto;
-    width: 450px;
-    margin-left: 900px;
-    margin-top: 50px;
-    color: var(--colour-main-blue-500, #505f98);
-    font-feature-settings: "clig" off, "liga" off;
-    font-family: "Roboto";
-    font-size: 18px;
-    text-align: justify;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
+.Text {
+  margin: auto;
+  width: 445px;
+  margin-left: 900px;
+  text-align: justify;
+  margin-top:-10px;
+  color: var(--colour-main-blue-400, #6f7cb2);
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Regular 16 */
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 162.5% */
 }
-  
-  .TitleText{
-   flex-direction: column; 
-   margin: auto;
-  }
-  
+
+.TitleText {
+  flex-direction: column;
+  margin: auto;
+}
