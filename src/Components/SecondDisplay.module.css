@@ -10,14 +10,14 @@
         z-index: 1;
 }
 .Title{
-    width: 45%;
+    width: 450px;
     margin-left:900px;
     margin-top: -380px;
     color: var(--colour-main-blue-900, #091133);
     font-feature-settings: "clig" off, "liga" off;
     /* Medium 50 */
-    font-family: Roboto;
-    font-size: 50px;
+    font-family: 'Roboto';
+    font-size: 40px;
     text-align: justify;
     font-style: normal;
     font-weight: 500;
@@ -26,7 +26,8 @@
   
 }
 .Text{
-    width: 500px;
+    margin: auto;
+    width: 450px;
     margin-left: 900px;
     margin-top: 50px;
     color: var(--colour-main-blue-500, #505f98);
@@ -41,5 +42,6 @@
   
   .TitleText{
    flex-direction: column; 
+   margin: auto;
   }
   

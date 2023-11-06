@@ -1,5 +1,6 @@
 .thirdDisplay{ 
 flex-direction: row;
+margin: auto;
 }
 .image{
     background-image: url("../assets//ThirdDisplay.png");
@@ -11,14 +12,14 @@ flex-direction: row;
         margin-top: 35%;
         z-index: 1;
 }
-.title{width: 45%;
+.title{width: 450px;
     margin-left:950px;
     margin-top: -380px;
     color: var(--colour-main-blue-900, #091133);
     font-feature-settings: "clig" off, "liga" off;
     /* Medium 50 */
     font-family: Roboto;
-    font-size: 50px;
+    font-size: 40px;
     text-align: justify;
     font-style: normal;
     font-weight: 500;
@@ -27,7 +28,7 @@ flex-direction: row;
 }
 
 .Text{
-    width: 500px;
+    width: 450px;
     margin-left: 950px;
     margin-top: 50px;
     color: var(--colour-main-blue-500, #505f98);

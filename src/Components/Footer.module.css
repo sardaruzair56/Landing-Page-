@@ -1,3 +1,6 @@
+.body {
+  flex-direction: row;
+}
 .bg {
   background-image: url("../assets/Rectangle.png");
   image-resolution: 1440px;
@@ -5,40 +8,40 @@
   background-position: 70%;
   z-index: 1;
   margin-top: 200px;
-  width: 1440px;
+  width: 110.7%;
   height: 300px;
   margin-top: 140px;
 }
-.body {
-  flex-direction: row;
-}
+
 .txt1 {
+  margin-top: -210px;
+  margin-left: -60%;
+
   color: var(--colour-main-blue-500, #505f98);
   font-feature-settings: "clig" off, "liga" off;
   font-family: "Roboto";
-  margin-top: -200px;
-  margin-left: -800px;
 }
 
 .txt2 {
+  margin-top: -3%;
   color: var(--colour-main-blue-500, #505f98);
   font-feature-settings: "clig" off, "liga" off;
   font-family: "Roboto";
   font-size: 30px;
   font-style: normal;
-  margin-top: -35px;
-  margin-right: 0px;
 }
-/* 
-.button {
-  height: 40px;
+
+.btn {
+  margin-top: -5%;
+  margin-left: 80%;
+  height: 30px;
   width: 150px;
   background-color: #05103e;
   font-family: "Roboto";
   color: #fff;
   border: 3px solid rgb(6, 6, 56);
-  margin-top: 300px;
-} */
+  padding-top: 8px;
+}
 
 .line {
   background-image: url("../assets/download.jfif");
@@ -51,29 +54,74 @@
   z-index: 1;
 }
 
-.txt3 {
+.home{
   color: var(--colour-main-blue-500, #505f98);
   font-feature-settings: "clig" off, "liga" off;
   font-family: "Roboto";
-  margin-top: 40px;
-  margin-right: 70%;
+  margin-top: -30px;
+  margin-left: -65%;
+
 }
 
-.txt4 {
-    color: var(--colour-main-blue-500, #505f98);
-    font-feature-settings: "clig" off, "liga" off;
-    font-family: "Roboto";
-    margin-top: -34px;
-    margin-right: 55%;
-  }
+.about{
+  color: var(--colour-main-blue-500, #505f98);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Roboto";
+  margin-top: -35px;
+  margin-left: -50%;
+  
+}
 
-  .txt5 {
-    color: var(--colour-main-blue-500, #505f98);
-    font-feature-settings: "clig" off, "liga" off;
-    font-family: "Roboto";
-    margin-top: -34px;
-    margin-right: 40%;
-  }
-  .icon1{
-    margin-top: -20px;
-  }
+.contact{
+  color: var(--colour-main-blue-500, #505f98);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Roboto";
+  margin-top: -35px;
+  margin-left: -35%;
+  
+}
+
+.icon1{
+  width: 30px;
+  height: 30px;
+  margin-top: 30px;
+  margin-left: 65%;
+  z-index: 1;
+}
+
+.iconsbody{
+  flex-direction: row;
+}
+
+.icon2{
+  width: 30px;
+  height: 30px;
+  margin-top:20px;
+  margin-left: 20px;
+  z-index: 1;
+}
+
+
+.icon3{
+  width: 30px;
+  height: 30px;
+  margin-top:20px;
+  margin-left: 20px;
+  z-index: 1;
+}
+
+.icon4{
+  width: 30px;
+  height: 30px;
+  margin-top:20px;
+  margin-left: 20px;
+  z-index: 1;
+}
+
+.icon5{
+  width: 30px;
+  height: 30px;
+  margin-top:20px;
+  margin-left: 20px;
+  z-index: 1;
+}

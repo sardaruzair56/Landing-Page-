@@ -5,7 +5,7 @@
   margin-right: 4%;
 }
 .header {
-  display: flex;
+  margin: auto;
   flex-direction: row;
   position: relative;
   font-family: "Roboto";
