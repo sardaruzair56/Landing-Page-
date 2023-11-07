@@ -12,7 +12,7 @@ const Footer = () => {
         </p>
         <p className={classes.btn}>Purchase Now</p>
       </div>
-      <p className={classes.line} />
+      <p className={classes.line}></p> 
       <div>
         <svg
           xmlns="http://www.w3.org/2000/svg"
