@@ -43,3 +43,35 @@
   font-weight: 400;
   line-height: 26px; /* 162.5% */
 }
+
+/* For Mobile */
+@media (max-width: 600px) {
+  .image {
+    margin-top: 400px;
+    width: 230px;
+    height: 165px;
+    margin-left: 50px;
+    margin-top: 200px;
+  }
+  .title {
+    margin-top: 10px;
+    margin-left: 45px;
+    font-size: 18px;
+    width: 250px;
+    letter-spacing: 0.5px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+  }
+  .Text {
+    margin-top: 300px;
+    margin-left: 45px;
+    font-size: 14px;
+    width: 220px;
+    letter-spacing: 0.5px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px;
+    margin-top: -10px;
+  }
+}

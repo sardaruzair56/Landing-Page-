@@ -20,7 +20,7 @@ const FifthDisplay = () => {
         />
       </svg>
       <p className={classes.title}>A Price To Suit Everyone</p>
-      <p className={classes.text}> 
+      <p className={classes.text}>
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
         ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
         dis parturient montes, nascetur ridiculus{" "}
@@ -28,8 +28,9 @@ const FifthDisplay = () => {
       <p className={classes.design}>$40</p>
       <p className={classes.design2}>UI Design Kit</p>
       <p className={classes.design3}>See, One price. Simple.</p>
+
       <button className={classes.button}>Purchase Now</button>
-      <Footer/>
+      <Footer />
     </div>
   );
 };

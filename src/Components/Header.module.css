@@ -146,14 +146,10 @@
 }
 
 @media (max-width: 600px) {
-  .body {
-    width: auto;
-    height: auto;
-  }
+
   .header {
     width: 200px;
-    height: 800px;
-    background-position: -800px;
+    height: 900px;
   }
   .header::after {
     margin-right:-4px;
@@ -165,13 +161,13 @@
     width: 70px;
     height: 20px;
     padding-top: -4px;
-    margin-top: 0px;
+    margin-top: 10px;
     margin-left: 145px;
   }
   .header-landing {
     font-size: 15px;
     margin-left:-20px;
-    margin-top: -1px;
+    margin-top: 10px;
   }
   .header-home {
     visibility: hidden;
@@ -182,21 +178,23 @@
   .header-contact {
     visibility: hidden;
   }
+  .menudiv{
+    margin-top: -815px;
+  }
   .menu {
-    margin-top: -812px;
-    margin-left: -8px;
+    margin-left: -180px;
+    width: 80px;
     color: var(--colour-main-blue-500, #112369);
     font-feature-settings: "clig" off, "liga" off;
     font-family: "Roboto";
     font-size: 14px;
-    text-align: justify;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
     z-index: 1;
   }
   .drawer {
-    color: var(--colour-main-blue-500, #091443);
+    color: var(--colour-main-blue-500, rgb(17, 92, 99));
     font-feature-settings: "clig" off, "liga" off;
     font-family: "Roboto";
     font-size: 16px;
@@ -204,10 +202,11 @@
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-    background-color: #05103e;
+    background-color: #02071c;
     z-index: 1;
     
   }
+  
   .intro {
     margin-top: 300px;
     margin-left: -5px;
@@ -241,189 +240,7 @@
     margin-left: 20px;
   }
 }
-/* 
-@media  (min-width:660px)and(max-width:990px){
-  .body {
-    width: auto;
-    height: auto;
-  }
-  .header {
-    width: 810px;
-    height:800px;
-    background-position:0px;
-  }
-  .header::after {
-    margin-right:-5px;
-    width: 450px;
-    height: 550px;
-    margin-top: -90px;
-  }
-  .header-button {
-    width: 150px;
-    height: 35px;
-    padding-top: -4px;
-    margin-top: 10px;
-    margin-left: 75%;
-  }
-  .header-landing {
-    font-size: 30px;
-    margin-left:-10px;
-    margin-top: 20px;
-  }
-  .header-home {
-    margin-left:-15px;
-    margin-top: 20px;
-    font-size: 18px;
-  }
-  .header-about {
-    margin-left:0px;
-    margin-top: 20px;
-    font-size: 18px;
-  }
-  .header-contact {
-    margin-left:15px;
-    margin-top: 20px;
-    font-size: 18px;
-  }
-  .menu {
-    visibility: hidden;
-  }
-  .drawer {
-    visibility: hidden;
-  }
-  .intro {
-    margin-top: 160px;
-    margin-left: -5px;
-    font-size: 30px;
-    width: 400px;
-    letter-spacing: 0.5px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 25px;
-  }
-  .text{
-    margin-top: 100px;
-    margin-left: -5px;
-    font-size: 16px;
-    width: 400px;
-    letter-spacing: 0.5px;
-    font-style: normal;
-    font-weight: 200;
-    line-height: 25px;
-    margin-top: -10px;
-  }
-  .button{
-    flex-direction: row;
-    width: 500px;
-    margin-top: 50px;
-    margin-left: -8px;
-  }
-  .button1{
-    width: 180px;
-    margin-top: -40px;
-    margin-left: -100px;
-  }
-  .button2{
-    width: 180px;
-    margin-top: -40px;
-    margin-left: 40px;
-  }
-}
- */
-/* 
 
 @media (min-width:990px){
-  .body {
-    width: auto;
-    height: auto;
-  }
-  .header {
-    width: 1439px;
-    height:800px;
-    background-position:0px;
-  }
-  .header::after {
-    margin-right:-5px;
-    width: 550px;
-    height: 650px;
-    margin-top: -135px;
-  }
-  .header-button {
-    width: 170px;
-    height: 40px;
-    padding-top: -4px;
-    font-size: 16px;
-    margin-top: 20px;
-    margin-left: 80%;
-  }
-  .header-landing {
-    font-size: 30px;
-    text-align: center;
-    margin-left:-10px;
-    margin-top: 25px;
-  }
-  .header-home {
-    margin-left:-120px;
-    margin-top: 25px;
-    font-size: 18px;
-  }
-  .header-about {
-    margin-left:-40px;
-    margin-top: 25px;
-    font-size: 18px;
-  }
-  .header-contact {
-    margin-left:40px;
-    margin-top: 25px;
-    font-size: 18px;
-  }
-  .menu {
-    visibility: hidden;
-  }
-  .drawer {
-    visibility: hidden;
-  }
-  .intro {
-    margin-top: 150px;
-    margin-left: -5px;
-    font-size: 40px;
-    width: 500px;
-    letter-spacing: 1px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 55px;
-  }
-  .text{
-    margin-top: 100px;
-    margin-left: -5px;
-    font-size: 18px;
-    width: 550px;
-    letter-spacing: 0.5px;
-    font-style: normal;
-    font-weight: 200;
-    line-height: 30px;
-    margin-top: -10px;
-  }
-  .button{
-    flex-direction: row;
-    width: 500px;
-    margin-top: 70px;
-    margin-left: 30px;
-  }
-  .button1{
-    width: 200px;
-    height: 50px;
-    font-size: 16px;
-    margin-top: -50px;
-    margin-left: -80px;
-  }
-  .button2{
-    width: 200px;
-    height: 50px;
-    font-size: 16px;
-    margin-top: -50px;
-    margin-left: 80px;
-  }
+  .menu{visibility: hidden;}
 }
-
- */

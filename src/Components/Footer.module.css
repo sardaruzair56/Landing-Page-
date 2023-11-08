@@ -58,7 +58,7 @@
   background-image: url("../assets/download.jfif");
   background-size: cover;
   background-position: 70%;
-  background: #CDD1D4;
+  background: #cdd1d4;
   width: 1068px;
   height: 2px;
   margin-left: 16%;
@@ -155,4 +155,81 @@
   margin-top: 20px;
   margin-left: 20px;
   z-index: 1;
+}
+
+@media (max-width: 600px) {
+  .bg {
+    width: 300px;
+    height: 70px;
+    margin-top: 7px;
+    margin-left: 0px;
+  }
+  .txt1 {
+    font-size: 8px;
+    margin-top: -75px;
+    margin-left: -280px;
+  }
+  .txt2 {
+    font-size: 12px;
+    margin-top: -38px;
+    margin-left: -120px;
+  }
+  .btn {
+    margin-left: 185px;
+    margin-top: -40px;
+    width: 53px;
+    padding: 3px 8px;
+    height: 10px;
+    padding: auto;
+    font-size: 8px;
+  }
+  .line {
+    margin: 40px;
+    margin-top: -0px;
+    width: 230px;
+    margin-left: 30px;
+  }
+  .home {
+    margin-left: -320px;
+    margin-top: -25px;
+    font-size: 8px;
+  }
+  .about {
+    margin-left: -250px;
+    font-size: 8px;
+    margin-top: -32px;
+  }
+  .contact {
+    margin-left: -180px;
+    font-size: 8px;
+    margin-top: -31px;
+  }
+  .body {
+    flex-direction: row;
+  }
+  .icon {
+    flex-direction: row;
+    margin-top: -65px;
+  }
+  .icon1 {
+    margin-left: 8px;
+    width: 10px;
+  }
+  .icon2 {
+    margin-left: -35px;
+    width: 10px;
+  }
+
+  .icon3 {
+    margin-left: -35px;
+    width: 10px;
+  }
+  .icon4 {
+    margin-left: -35px;
+    width: 10px;
+  }
+  .icon5 {
+    margin-left: -35px;
+    width: 10px;
+  }
 }

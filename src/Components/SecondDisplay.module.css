@@ -28,7 +28,7 @@
   width: 445px;
   margin-left: 900px;
   text-align: justify;
-  margin-top:-10px;
+  margin-top: -10px;
   color: var(--colour-main-blue-400, #6f7cb2);
   font-feature-settings: "clig" off, "liga" off;
 
@@ -43,4 +43,37 @@
 .TitleText {
   flex-direction: column;
   margin: auto;
+}
+
+/* For Mobile */
+@media (max-width: 600px) {
+  .img {
+    margin-top: 400px;
+    width: 230px;
+    height: 150px;
+    margin-left: 50px;
+    margin-top: 400px;
+  }
+  .Title {
+    margin-top: 10px;
+    margin-left: 45px;
+    font-size: 18px;
+    width: 250px;
+    letter-spacing: 0.5px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+  }
+  .Text {
+    margin-top: 300px;
+    margin-left: 45px;
+    font-size: 14px;
+    width: 220px;
+    letter-spacing: 0.5px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px;
+    margin-top: -10px;
+  }
+  
 }
