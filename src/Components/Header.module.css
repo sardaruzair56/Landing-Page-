@@ -1,115 +1,118 @@
 .body {
-  margin-left: 65px;
+  width: auto;
+  height: auto;
 }
-
-.header::after {
-  content: "";
-  position: absolute;
-  top: 250px;
-  right: 5px;
-  width: 450px;
-  height: 550px;
-  margin-top: -50px;
-  background-image: url("../assets/Group.png");
-  image-resolution: 1440px;
-  background-size: cover;
-  background-position: 70%;
-  z-index: 1;
-}
-
 .header {
-  margin: auto;
-  flex-direction: row;
-  position: relative;
+  display: flex;
+  flex-direction: column;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   color: #505f98;
-  text-decoration: none;
-  padding: 0 20px;
-  display: block;
-  width: 1440px;
-  height: 770px;
-  margin-top: 0px;
-  margin-left: 40px;
   background-image: url("../assets/Path.png");
   background-size: cover;
-  position: relative;
+  width: 100%;
+  height: 50rem;
 }
-
-.header-home {
-  position: absolute;
-  left: 0;
-  right: 85%;
-  top: 0;
-  bottom: 90.7%;
-}
-
-.header-about {
-  position: absolute;
-  left: 0;
-  right: 70%;
-  top: 0;
-  bottom: 90.7%;
-}
-
-.header-contact {
-  position: absolute;
-  left: 0;
-  right: 55%;
-  top: 0;
-  bottom: 90.7%;
-}
-
-.header-landing {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 90.7%;
+.home {
+  color: var(--colour-main-blue-500, #505f98);
+  font-feature-settings: "clig" off, "liga" off;
   font-family: "Roboto";
-  color: #081963;
-  font-weight: bolder;
-  font-size: large;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 2%;
+  margin-left: 6%;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+}
+.about {
+  color: var(--colour-main-blue-500, #505f98);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 4%;
+  margin-top: 2%;
 }
 
-.header-button {
-  margin-left: 65%;
-  margin-top: 1%;
-  width: 120px;
+.contact {
+  color: var(--colour-main-blue-500, #505f98);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 4%;
+  margin-top: 2%;
+}
+
+.landing {
+  flex-direction: row;
+  color: var(--colour-main-blue-500, #505f98);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Roboto";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 22%;
+}
+
+.button {
   color: var(--colour-secondary-white-100-general, #fff);
-  text-align: center;
   font-feature-settings: "clig" off, "liga" off;
   background-color: #081963;
   font-family: "Roboto";
-  font-size: 12px;
+  font-size: 18px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 18px;
+  width: 8rem;
+  height: 2rem;
+  margin-left: 35%;
+  margin-top: 1.5%;
 }
 
+.groupImg {
+  content: "";
+  width: 30%;
+  height: 35rem;
+  margin-left: 70%;
+  margin-top: -600px;
+  background-image: url("../assets/Group.png");
+  image-resolution: 1440px;
+  background-size: cover;
+  background-position: 70%;
+  z-index: 1;
+}
+.menubtn {
+  visibility: hidden;
+}
+.txt {
+  display: flex;
+  flex-direction: column;
+}
 .intro {
-  width: 539px;
-  margin-left: 5%;
-  margin-top: 12%;
   color: var(--colour-main-blue-900, #091133);
   font-feature-settings: "clig" off, "liga" off;
-
-  /* Medium 50 */
   font-family: "Roboto";
   font-size: 50px;
   font-style: normal;
   text-align: justify;
   font-weight: 500;
-  line-height: 66px; /* 132% */
-  letter-spacing: 1px;
+  line-height: 50px;
+  letter-spacing: 1.5px;
+  margin-left: 6%;
+  margin-top: -550px;
+  width: 40%;
+  z-index: 1;
 }
 .text {
-  width: 539px;
-  margin-left: 5%;
-  margin-top: -1.5%;
   color: var(--colour-main-blue-500, #505f98);
   font-feature-settings: "clig" off, "liga" off;
   font-family: "Roboto";
@@ -118,129 +121,32 @@
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
-}
-
-.button {
-  flex-direction: row;
-  margin-right: 945px;
-  margin-top: 80px;
-}
-
-.button1,
-.button2 {
-  height: 40px;
-  width: 170px;
-  font-family: "Roboto";
-  border: 3px solid #05103e;
+  margin-left: 6%;
+  width: 40%;
 }
 
 .button1 {
+  display: flex;
+  flex-direction: row;
+  font-family: "Roboto";
+  margin-left: 15%;
+  margin-top: 2%;
+  border: 3px solid #05103e;
   background-color: #05103e;
   color: #fff;
-  margin-left: 20px;
+
+  width: 12%;
+  height: 2.5rem;
 }
 
 .button2 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 29%;
+  margin-top: -2.5%;
+  background-color: #eeeff4;
+  font-family: "Roboto";
   color: #05103e;
-  margin-left: 30px;
-}
-
-@media (max-width: 600px) {
-
-  .header {
-    width: 200px;
-    height: 900px;
-  }
-  .header::after {
-    margin-right:-4px;
-    width: 190px;
-    height: 230px;
-    margin-top: -190px;
-  }
-  .header-button {
-    width: 70px;
-    height: 20px;
-    padding-top: -4px;
-    margin-top: 10px;
-    margin-left: 145px;
-  }
-  .header-landing {
-    font-size: 15px;
-    margin-left:-20px;
-    margin-top: 10px;
-  }
-  .header-home {
-    visibility: hidden;
-  }
-  .header-about {
-    visibility: hidden;
-  }
-  .header-contact {
-    visibility: hidden;
-  }
-  .menudiv{
-    margin-top: -815px;
-  }
-  .menu {
-    margin-left: -180px;
-    width: 80px;
-    color: var(--colour-main-blue-500, #112369);
-    font-feature-settings: "clig" off, "liga" off;
-    font-family: "Roboto";
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    z-index: 1;
-  }
-  .drawer {
-    color: var(--colour-main-blue-500, rgb(17, 92, 99));
-    font-feature-settings: "clig" off, "liga" off;
-    font-family: "Roboto";
-    font-size: 16px;
-    text-align: justify;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    background-color: #02071c;
-    z-index: 1;
-    
-  }
-  
-  .intro {
-    margin-top: 300px;
-    margin-left: -5px;
-    font-size: 14px;
-    width: 220px;
-    letter-spacing: 0.5px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 25px;
-  }
-  .text{
-    margin-top: 300px;
-    margin-left: -5px;
-    font-size: 14px;
-    width: 220px;
-    letter-spacing: 0.5px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 25px;
-    margin-top: -10px;
-  }
-  .button{
-    flex-direction: column;
-    margin-top: 50px;
-  }
-  .button1{
-    margin-top: -40px;
-  }
-  .button2{
-    margin-top: 10px;
-    margin-left: 20px;
-  }
-}
-
-@media (min-width:990px){
-  .menu{visibility: hidden;}
+  width: 12%;
+  height: 2.5rem;
 }
