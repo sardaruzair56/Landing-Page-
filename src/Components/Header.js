@@ -11,14 +11,8 @@ const Header = () => {
 
   return (
     <div className={classes.body}>
+      
       <div className={classes.header}>
-        <p className={classes.home}>Home</p>
-        <p className={classes.about}>About</p>
-        <p className={classes.contact}>Contact</p>
-        <p className={classes.landing}>Landing</p>
-        <button className={classes.button}>Buy Now</button>
-      </div>
-      <p className={classes.groupImg} />
       <div>
         {" "}
         <button className={classes.menubtn} onClick={toggleDrawer}>
@@ -35,13 +29,15 @@ const Header = () => {
             <li>
               <a href="#">Contact</a>
             </li>
-            <li>
-              <button>Buy Now</button>
-            </li>
           </ul>
         )}
       </div>
-      <div className={classes.txt}>
+        <p className={classes.home}>Home</p>
+        <p className={classes.about}>About</p>
+        <p className={classes.contact}>Contact</p>
+        <p className={classes.landing}>Landing</p>
+        <button className={classes.button}>Buy Now</button>
+        <p className={classes.groupImg} />
         <p className={classes.intro}>
           Introduce Your Product Quickly & Effectively
         </p>
@@ -56,6 +52,7 @@ const Header = () => {
         <button className={classes.button1}>Purchase UI kit</button>
         <button className={classes.button2}>Learn More</button>
       </div>
+      
       <LayoutDisplay />
     </div>
   );

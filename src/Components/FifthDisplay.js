@@ -4,7 +4,8 @@ import Footer from "./Footer";
 
 const FifthDisplay = () => {
   return (
-    <div className={classes.bgIcon}>
+    <div className={classes.body}>
+        <div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="1440"
@@ -19,6 +20,8 @@ const FifthDisplay = () => {
           fill="#E7ECFF"
         />
       </svg>
+      </div>
+      <div className={classes.txt}>
       <p className={classes.title}>A Price To Suit Everyone</p>
       <p className={classes.text}>
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
@@ -28,8 +31,9 @@ const FifthDisplay = () => {
       <p className={classes.design}>$40</p>
       <p className={classes.design2}>UI Design Kit</p>
       <p className={classes.design3}>See, One price. Simple.</p>
-
+<div>
       <button className={classes.button}>Purchase Now</button>
+      </div> </div>
       <Footer />
     </div>
   );
