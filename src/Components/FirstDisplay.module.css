@@ -116,7 +116,7 @@
 }
 
 /* media query for mobile */
-@media (max-width: 415px) {
+@media (max-width: 600px) {
   .body {
     width: auto;
     height: auto;
@@ -145,58 +145,34 @@
 
     margin-top: 3%;
   }
-  .icon {
+  .icon{
     display: flex;
     flex-direction: column;
-    margin-top: 0%;
+    margin-top: 10%;
+    margin-left: -75%;
   }
-  .icon1 {
-    margin-left: 5%;
+  .icon1{
+   margin-top: 0%; 
   }
-  .icon1Title {
-    color: var(--colour-main-blue-900, #091133);
-    font-feature-settings: "clig" off, "liga" off;
-    font-family: "Roboto";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 26px;
-    margin-top: -38%;
-    margin-left: -15%;
+  .icon2{
+   margin-top: 20%;
   }
-  .icon1Text {
-    color: var(--colour-main-grey-600, #5d6970);
-    font-feature-settings: "clig" off, "liga" off;
-    font-family: "Roboto";
-    font-size: 12px;
-    font-style: normal;
-    text-align: justify;
-    font-weight: 400;
-    line-height: 18px;
-    margin-left: 5%;
+  .icontxt{
+    display: flex;
+    flex-direction: column;
+    margin-top: -45%;
+  }
+  .icon2Title{
+    margin-top: 19%;
+    margin-left: 7%;
+  }
+  .icon1Text{
+    margin-left: 10%;
+    margin-top: -4%;
+  }
+  .icon2Text{
     margin-top: -2%;
-    width: auto;
+    margin-left: 10%;
   }
 
-  .icon2 {
-    margin-top: 30%;
-    margin-left: 5%;
-  }
-  .icon2Title {
-    margin-top: 22%;
-    margin-left: -21%;
-  }
-  .icon2Text {
-    color: var(--colour-main-grey-600, #5d6970);
-    font-feature-settings: "clig" off, "liga" off;
-    font-family: "Roboto";
-    font-size: 12px;
-    font-style: normal;
-    text-align: justify;
-    font-weight: 400;
-    line-height: 18px;
-    margin-top: -2%;
-    margin-left: 5%;
-    width: auto;
-  }
 }
