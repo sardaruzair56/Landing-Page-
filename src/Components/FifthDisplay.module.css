@@ -90,6 +90,11 @@
   color: #fff;
   border: 3px solid rgb(6, 6, 56);
 }
+.button:hover {
+  width: 12rem;
+  border-radius: 2rem;
+  background: radial-gradient(rgb(14, 8, 65) 76%, rgb(13, 6, 65) 0%);
+}
 
 /* for mobile*/
 @media (max-width: 600px) {
@@ -144,4 +149,10 @@
   position: absolute;
   margin-left: -13%;
 }
+.button:hover {
+  width: 6rem;
+  border-radius: 2rem;
+  background: radial-gradient(rgb(14, 8, 65) 76%, rgb(13, 6, 65) 0%);
+}
+
 }

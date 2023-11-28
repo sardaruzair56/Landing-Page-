@@ -19,7 +19,7 @@ const Header = () => {
           ☰ MENU
         </button>
         {isDrawerOpen && (
-          <ul>
+          <ul className={classes.drawer}>
             <li>
               <a href="#">Home</a>
             </li>

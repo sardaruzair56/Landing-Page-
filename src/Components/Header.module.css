@@ -25,7 +25,7 @@
   font-weight: 400;
   line-height: 24px;
   margin-top: 2%;
-  margin-left: 8rem;
+  margin-left: 4rem;
 }
 .header {
   display: flex;
@@ -199,10 +199,11 @@
     visibility: hidden;
   }
   .menubtn {
+
     margin-top: 1.5rem;
     margin-left: 2rem;
     width: 4rem;
-    color: var(--colour-secondary-white-100-general, rgb(8, 8, 78));
+    color: var(--colour-secondary-white-100-general, rgb(6, 6, 46));
     background-color: #ecedf1;
     font-feature-settings: "clig" off, "liga" off;
     font-family: "Roboto";
@@ -211,6 +212,16 @@
     font-weight: 500;
     border: 1px solid rgb(8, 8, 73);
   }
+  .drawer{
+    background-color: #c6cbe1;
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    margin-left: 7%;
+    z-index: 1;
+    padding-top: 1rem;
+    font-size: 20px;
+}
   .landing {
     position: absolute;
     margin-left: 40%;
